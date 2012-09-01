@@ -7,7 +7,7 @@ var db = require('mongojs').connect(url, collections);
 
 var app = express();
 app.get('/', function(request, response) {
-  response.send('Setting up the environment for Bible Playlist');
+  response.send('Made a change to the environment for Bible Playlist');
 });
 
 var port = process.env.PORT || 5000;
